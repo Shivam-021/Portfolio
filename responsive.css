@@ -1,0 +1,63 @@
+@media (max-width:1199px) {
+    .aside{
+        left: -270px;
+    }
+    .aside .nav-toggler{
+        display: block;
+    }
+    .main-content{
+        padding-left: 0;
+    }
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+    body{
+        width: 100vw;
+        background-color: var(--bg-black-900);
+    }
+    .home-info{
+        margin-bottom: 15vh;
+    }
+}
+@media (max-width:991px){
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item{
+        flex: 0 0 50%;
+        min-width: 50%;
+    }
+    .home .home-img,
+    .home .home-info{
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+    .home .home-img{
+        flex: 0 0 40%;
+        max-width: 40%;
+        text-align: center;
+        position: relative;
+        margin-top: 10px;
+    }
+    /* .home .home-img{
+        display: none;
+    } */
+}
+@media (max-width:767px){
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+}
+@media screen and (max-width: 510px) {
+    #iam{
+        height: 12vh;
+    }
+} 
