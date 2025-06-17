@@ -32,8 +32,10 @@ body.dark{
 } */
 body{
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'poppins' sans-serif;
+    overflow-x: hidden;
+    
 }
 *{
     margin: 0;
@@ -310,8 +312,8 @@ h3.my-profession{
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: 13px;
+    bottom: 45px;
 }
 .home-img::before{
     content: '';
@@ -320,8 +322,8 @@ h3.my-profession{
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: 20px;
-    top: -40px;
+    left: 15px;
+    top: -30px;
 }
 .home .home-img img{
     margin: auto;
@@ -333,6 +335,7 @@ h3.my-profession{
 .about .about-content{
     flex: 0 0 100%;
     max-width: 100%;
+    
 }
 .about .about-content .about-text{
     flex: 0 0 100%;
@@ -688,7 +691,9 @@ h3.my-profession{
 }
 
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 

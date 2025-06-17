@@ -16,27 +16,28 @@
 }
 .style-switcher .s-icon{
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     text-align: center;
     font-size: 20px;
     background: var(--bg-black-100);
     color: var(--text-black-900);
     right: 100%;
     border: 1px solid var(--bg-black-50);
-    margin-right: 25px;
+    margin-right: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 50%;
+     
 }
 .style-switcher .s-icon{
-    line-height: 40px;
+    line-height:35px;
 }
 .style-switcher .style-switcher-toggler{
-    top: 0;
+    top: -50px;
 }
 .style-switcher .day-night{
-    top: 55px;
+    top: -10px;
 }
 .style-switcher h4{
     margin: 0 0 10px;
@@ -52,8 +53,8 @@
 }
 .style-switcher .colors span{
     display: inline-block;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     /* border: 1px solid red; */
 }

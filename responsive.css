@@ -1,63 +1,161 @@
-@media (max-width:1199px) {
-    .aside{
-        left: -270px;
-    }
-    .aside .nav-toggler{
-        display: block;
-    }
-    .main-content{
-        padding-left: 0;
-    }
-    .about .about-content .personal-info .info-item p span{
-        display: block;
-        margin-left: 0;
-    }
-    body{
-        width: 100vw;
-        background-color: var(--bg-black-900);
-    }
-    .home-info{
-        margin-bottom: 15vh;
-    }
+/* Small Phones (up to 480px) */
+@media (max-width: 480px) {
+  .service .service-item,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .about .about-content .experience,
+  .about .about-content .education,
+  .about .about-content .skills,
+  .about .about-content .personal-info,
+  .contact .contact-form .col-6 {
+    flex: 0 0 100%;
+    min-width: 100%;
+  }
+
+  .home .home-info p {
+    margin-top: 95px;
+    margin-bottom: 50px;
+  }
+
+  .email-text {
+    word-break: break-word;
+    height: 70px;
+    width: 120px;
+  }
 }
-@media (max-width:991px){
-    .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item{
-        flex: 0 0 50%;
-        min-width: 50%;
-    }
-    .home .home-img,
-    .home .home-info{
-        flex: 0 0 100%;
-        min-width: 100%;
-    }
-    .home .home-img{
-        flex: 0 0 40%;
-        max-width: 40%;
-        text-align: center;
-        position: relative;
-        margin-top: 10px;
-    }
-    /* .home .home-img{
-        display: none;
-    } */
+
+/* Phones: 481px - 576px */
+@media (min-width: 481px) and (max-width: 576px) {
+  .service .service-item,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item {
+    flex: 0 0 50%;
+    min-width: 50%;
+  }
+
+  .home .home-info p {
+    margin-top: 95px;
+    margin-bottom: 50px;
+  }
 }
-@media (max-width:767px){
-    .contact .contact-form .col-6,
-    .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item,
-    .about .about-content .experience,
-    .about .about-content .education,
-    .about .about-content .skills,
-    .about .about-content .personal-info{
-        flex: 0 0 100%;
-        min-width: 100%;
-    }
+
+/* Phones/Tablets: 577px - 767px */
+@media (max-width: 767px) {
+  .aside {
+    left: -270px;
+  }
+
+  .aside .nav-toggler {
+    display: block;
+  }
+
+  .main-content {
+    padding-left: 0;
+  }
+
+  .home .home-img,
+  .home .home-info {
+    flex: 0 0 100%;
+    min-width: 100%;
+  }
+
+  .home .home-img {
+    display: none;
+  }
+
+  .email-text {
+    word-break: break-word;
+    height: 70px;
+    width: 120px;
+  }
 }
-@media screen and (max-width: 510px) {
-    #iam{
-        height: 12vh;
-    }
-} 
+
+/* Tablets: 768px - 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .aside {
+    left: -270px;
+  }
+
+  .aside .nav-toggler {
+    display: block;
+  }
+
+  .main-content {
+    padding-left: 0;
+  }
+
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+
+  body {
+    width: 100vw;
+    background-color: var(--bg-black-900);
+  }
+
+  .home-info {
+    margin-bottom: 15vh;
+  }
+}
+
+/* Laptops: 992px - 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-content {
+    padding-left: 270px;
+  }
+
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+
+  body {
+    width: 100vw;
+    background-color: var(--bg-black-900);
+  }
+
+  .home-info {
+    margin-bottom: 15vh;
+  }
+}
+
+/* Desktops: 1200px and up */
+@media (min-width: 1200px) {
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+
+  body {
+    width: 100vw;
+    background-color: var(--bg-black-900);
+  }
+
+  .home-info {
+    margin-bottom: 15vh;
+  }
+
+  .email-text {
+    word-break: break-word;
+    /* border: 2px solid yellow; */
+    height: 50px;
+    width: 100px;
+  }
+}
+
+/* Very small screens (optional, like iPhone SE) */
+@media (min-width: 200px) and (max-width: 300px) {
+  .email-text {
+    word-break: break-word;
+    height: 80px;
+    width: 70px;
+  }
+}
+
+/* Custom height tweak */
+@media (max-width: 380px) {
+  #iam {
+    height: 10vh;
+  }
+}
