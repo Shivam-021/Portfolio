@@ -13,14 +13,17 @@
   }
 
   .home .home-info p {
-    margin-top: 95px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
   }
 
   .email-text {
     word-break: break-word;
     height: 70px;
     width: 120px;
+  }
+   #iam {
+    height: 15vh;
   }
 }
 
@@ -34,8 +37,8 @@
   }
 
   .home .home-info p {
-    margin-top: 95px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
   }
 }
 
@@ -156,6 +159,6 @@
 /* Custom height tweak */
 @media (max-width: 380px) {
   #iam {
-    height: 10vh;
+    height: 15vh;
   }
 }

@@ -79,7 +79,7 @@ ul{
 }
 .section .container{
     padding-top: 60px;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
 }
 .section-title{
     flex: 0 0 100%;
@@ -293,6 +293,12 @@ h3.my-profession{
 }
 .typing{
     color: var(--skin-color);
+}
+.typing-p{
+    font-size: 20px;
+    color: var(--text-black-700);
+    margin-bottom: -10px;
+    padding-top: -10%;
 }
 .home-info p{
     margin-bottom: 70px;
